@@ -26,3 +26,8 @@ else if(spell_y_diff > spell_x_diff)
 		show_debug_message("Frost Bolt!");
 	}
 }
+
+spellYPosArray = []
+spellXPosArray = []
+
+surface_free(mySurface)

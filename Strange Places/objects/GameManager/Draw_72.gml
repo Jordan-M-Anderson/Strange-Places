@@ -1,7 +1,9 @@
 if(!surface_exists(mySurface))
 {
 	mySurface = surface_create(room_width, room_height);
-	//buffer_set_surface(buffer, mySurface, 0);
+}
+if(!surface_exists(spellSurface))
+{
+	spellSurface = surface_create(room_width, room_height);
 }
 
-//buffer_get_surface(buffer, mySurface, 0);
