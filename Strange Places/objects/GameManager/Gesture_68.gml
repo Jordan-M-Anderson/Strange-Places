@@ -9,6 +9,7 @@ if(spell_x_diff > spell_y_diff)
 	if(spell_x > spell_x_pre)
 	{
 		show_debug_message("Fire Bolt!");
+		summonSpellObjs(FireBolt_Obj)
 	} 
 	else
 	{

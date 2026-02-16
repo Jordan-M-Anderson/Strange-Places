@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Spell",
-  "eventList":[],
+  "%Name":"FireBolt_Obj",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Spell",
+  "name":"FireBolt_Obj",
   "overriddenProperties":[],
   "parent":{
     "name":"Strange Places",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite1",
-    "path":"sprites/Sprite1/Sprite1.yy",
+    "name":"FireBolt_Sprite",
+    "path":"sprites/FireBolt_Sprite/FireBolt_Sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

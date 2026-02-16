@@ -1,9 +1,4 @@
-show_debug_message("Magic Missile!");
-
-for(var i = 0; i < array_length(spellXPosArray); i++)
-{
-	instance_create_layer(spellXPosArray[i], spellYPosArray[i], 0, Spell)
-}
+instance_create_layer(mouse_x, mouse_y, 0, MagicMissile_Obj)
 
 spellYPosArray = []
 spellXPosArray = []
