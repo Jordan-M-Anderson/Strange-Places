@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Sprite4",
-    "path":"sprites/Sprite4/Sprite4.yy",
+    "name":"Floor",
+    "path":"sprites/Floor/Floor.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
