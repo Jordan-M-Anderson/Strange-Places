@@ -1,17 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Enemy",
+  "%Name":"FrostBolt_Obj",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"MagicMissile_Obj","path":"objects/MagicMissile_Obj/MagicMissile_Obj.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"FireBolt_Obj","path":"objects/FireBolt_Obj/FireBolt_Obj.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"WaterBolt_Obj","path":"objects/WaterBolt_Obj/WaterBolt_Obj.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"FrostBolt_Obj","path":"objects/FrostBolt_Obj/FrostBolt_Obj.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"FrostBar_Obj","path":"objects/FrostBar_Obj/FrostBar_Obj.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Enemy",
+  "name":"FrostBolt_Obj",
   "overriddenProperties":[],
   "parent":{
     "name":"Strange Places",
@@ -36,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"FireElemental",
-    "path":"sprites/FireElemental/FireElemental.yy",
+    "name":"FrostBolt_Sprite",
+    "path":"sprites/FrostBolt_Sprite/FrostBolt_Sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -14,6 +14,7 @@ if(spell_x_diff > spell_y_diff)
 	else
 	{
 		show_debug_message("Water Bolt!");
+		summonSpellObjs(WaterBolt_Obj)
 	}
 } 
 else if(spell_y_diff > spell_x_diff)
@@ -21,10 +22,12 @@ else if(spell_y_diff > spell_x_diff)
 	if(spell_y < spell_y_pre)
 	{
 		show_debug_message("Frost Barrier!")
+		summonSpellObjs(FrostBar_Obj)
 	} 
 	else
 	{
 		show_debug_message("Frost Bolt!");
+		summonSpellObjs(FrostBolt_Obj)
 	}
 }
 
