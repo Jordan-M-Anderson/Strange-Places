@@ -8,12 +8,12 @@ if(spell_x_diff > spell_y_diff)
 {
 	if(spell_x > spell_x_pre)
 	{
-		show_debug_message("Fire Bolt!");
+		show_debug_message("Fire Bolt!")
 		summonSpellObjs(FireBolt_Obj)
 	} 
 	else
 	{
-		show_debug_message("Water Bolt!");
+		show_debug_message("Water Bolt!")
 		summonSpellObjs(WaterBolt_Obj)
 	}
 } 
@@ -26,8 +26,8 @@ else if(spell_y_diff > spell_x_diff)
 	} 
 	else
 	{
-		show_debug_message("Frost Bolt!");
-		summonSpellObjs(FrostBolt_Obj)
+		show_debug_message("Frost Bolt!")
+		summonSpellObjs(Lightning_Obj)
 	}
 }
 

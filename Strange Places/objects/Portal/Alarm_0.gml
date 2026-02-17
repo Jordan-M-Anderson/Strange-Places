@@ -1,2 +1,3 @@
 instance_create_layer(x, y, tile_map, Enemy)
-alarm_set(0, 120)
+var time = random_range(120, 800)
+alarm_set(0, time)

@@ -1,0 +1,1 @@
+Character.move_speed += 1
