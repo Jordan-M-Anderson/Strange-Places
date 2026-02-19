@@ -31,9 +31,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Character_temp_sprite",
-    "path":"sprites/Character_temp_sprite/Character_temp_sprite.yy",
+    "name":"Character_sprite",
+    "path":"sprites/Character_sprite/Character_sprite.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"Character_Sheet_front",
+    "path":"sprites/Character_Sheet_front/Character_Sheet_front.yy",
+  },
   "visible":true,
 }
