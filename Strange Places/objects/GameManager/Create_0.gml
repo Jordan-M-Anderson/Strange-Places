@@ -8,3 +8,5 @@ mana = maxMana
 
 spellXPosArray = []
 spellYPosArray = []
+
+audio_play_sound(StrangePlaces, -1, true)

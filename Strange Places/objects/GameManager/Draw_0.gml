@@ -1,7 +1,7 @@
-var bar_width = 50
-var bar_height = 8
+var bar_width = 30
+var bar_height = 4
 var bar_x = mouse_x - bar_width/2
-var bar_y = mouse_y + 25;
+var bar_y = mouse_y + 12;
 var mana_percentage = mana / maxMana
 var filled = bar_width * mana_percentage
 

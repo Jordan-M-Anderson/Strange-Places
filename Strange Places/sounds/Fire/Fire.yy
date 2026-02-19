@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Fire",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":2.2364852,
+  "exportDir":"",
+  "name":"Fire",
+  "parent":{
+    "name":"Strange Places",
+    "path":"Strange Places.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Fire.wav",
+  "volume":1.0,
+}
