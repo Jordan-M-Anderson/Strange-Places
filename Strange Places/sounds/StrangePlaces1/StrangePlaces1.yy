@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"StrangePlaces1",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":45.816666,
+  "exportDir":"",
+  "name":"StrangePlaces1",
+  "parent":{
+    "name":"Strange Places",
+    "path":"Strange Places.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"StrangePlaces1.wav",
+  "volume":1.0,
+}

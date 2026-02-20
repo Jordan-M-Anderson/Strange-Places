@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Portal_Sprite",
-    "path":"sprites/Portal_Sprite/Portal_Sprite.yy",
+    "name":"Hut",
+    "path":"sprites/Hut/Hut.yy",
   },
   "spriteMaskId":null,
   "visible":true,
