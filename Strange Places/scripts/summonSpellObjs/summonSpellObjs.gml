@@ -4,7 +4,7 @@ function summonSpellObjs(spell, cost = .1){
 	{
 		for(var i = 10; i < array_length(spellXPosArray); i += 10)
 		{
-			instance_create_layer(spellXPosArray[i], spellYPosArray[i], 0, spell)
+			instance_create_layer(spellXPosArray[i], spellYPosArray[i], "Instances", spell)
 		}
 		GameManager.mana -= cost*array_length(spellXPosArray)
 	}

@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"MagicMissile_Obj",
+  "%Name":"Win",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Enemy_1","path":"objects/Enemy_1/Enemy_1.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"MagicMissile_Obj",
+  "name":"Win",
   "overriddenProperties":[],
   "parent":{
-    "name":"Strange Places",
-    "path":"Strange Places.yyp",
+    "name":"Menu System",
+    "path":"folders/Menu System.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"MagicMissile_Sprite",
-    "path":"sprites/MagicMissile_Sprite/MagicMissile_Sprite.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

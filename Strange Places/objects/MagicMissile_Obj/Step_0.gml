@@ -2,6 +2,7 @@ if(instance_exists(Enemy))
 {
 	enemyPos = instance_nearest(x,y,Enemy)
 	move_towards_point(enemyPos.x, enemyPos.y, move_speed)
+	image_angle = point_direction(x,y,enemyPos.x,enemyPos.y)
 } 
 else
 {
